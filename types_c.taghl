@@ -1,0 +1,5 @@
+syn keyword CTagsLocalVariable tmp c end val timer r result
+syn keyword CTagsMember count set choice flag combinations prev endl
+syn keyword CTagsFunction reset getNextCombination Combination resume stop getCombinationNum is_end lexical_cast main assign resize
+syn keyword CTagsClass Combination
+

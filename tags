@@ -1,0 +1,43 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Combination	main.cpp	/^class Combination{$/;"	c	file:
+Combination	main.cpp	/^	Combination(int set, int choice){$/;"	f	class:Combination
+assign	main.cpp	/^		prev.assign(result.begin(), result.end());$/;"	p	file:
+assign	main.cpp	/^		result.assign(prev.begin(), prev.end());$/;"	p	file:
+choice	main.cpp	/^	int choice;$/;"	m	class:Combination	file:
+c	main.cpp	/^	int c = combo.getCombinationNum();$/;"	l
+combinations	main.cpp	/^	int combinations;$/;"	m	class:Combination	file:
+count	main.cpp	/^	int count;$/;"	m	class:Combination	file:
+end	main.cpp	/^		bool end=false;$/;"	l
+endl	main.cpp	/^		fout << ")" <<std::endl;$/;"	m	class:std	file:
+endl	main.cpp	/^	fout << "#wall[sec], user[sec], system[sec], CPU%" << std::endl;$/;"	m	class:std	file:
+endl	main.cpp	/^	fout << "Combinations: " << c << std::endl;$/;"	m	class:std	file:
+endl	main.cpp	/^	fout << timer.format(10, "%w, %u, %s, %p") << std::endl;$/;"	m	class:std	file:
+flag	main.cpp	/^	std::vector<int> flag;$/;"	m	class:Combination	file:
+getCombinationNum	main.cpp	/^	int getCombinationNum() const{$/;"	f	class:Combination
+getNextCombination	main.cpp	/^	const std::vector<int>& getNextCombination(){$/;"	f	class:Combination
+getNextCombination	main.cpp	/^	void getNextCombination(std::vector<int> &result){$/;"	f	class:Combination
+is_end	main.cpp	/^	bool is_end() const{$/;"	f	class:Combination
+lexical_cast	main.cpp	/^	Combination combo(boost::lexical_cast<int>(argv[1]), boost::lexical_cast<int>(argv[2]));$/;"	p	class:boost	file:
+lexical_cast	main.cpp	/^	Combination combo(boost::lexical_cast<int>(argv[1]), boost::lexical_cast<int>(argv[2]));$/;"	p	file:
+main	main.cpp	/^int main(int argc, char const* argv[])$/;"	f
+operator *	main.cpp	/^	const std::vector<int>& operator *(){$/;"	f	class:Combination
+operator ++	main.cpp	/^	const std::vector<int> operator ++(int){$/;"	f	class:Combination
+operator ++	main.cpp	/^	const std::vector<int>& operator ++(){$/;"	f	class:Combination
+operator []	main.cpp	/^	const int operator [](int index){$/;"	f	class:Combination
+prev	main.cpp	/^	std::vector<int> prev;$/;"	m	class:Combination	file:
+reset	main.cpp	/^	void reset(int set, int choice){$/;"	f	class:Combination
+resize	main.cpp	/^		flag.resize(choice, 0);$/;"	p	file:
+resize	main.cpp	/^		prev.resize(choice, 0);$/;"	p	file:
+result	main.cpp	/^		int result = 1;$/;"	l
+resume	main.cpp	/^		timer.resume();$/;"	p	file:
+r	main.cpp	/^		const std::vector<int> &r = combo.getNextCombination();$/;"	l
+set	main.cpp	/^	int set;$/;"	m	class:Combination	file:
+stop	main.cpp	/^		timer.stop();$/;"	p	file:
+timer	main.cpp	/^	boost::timer::cpu_timer timer;$/;"	l
+tmp	main.cpp	/^		std::vector<int> tmp = prev;$/;"	l
+val	main.cpp	/^			fout << val <<" ";$/;"	l
