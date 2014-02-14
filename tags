@@ -19,8 +19,6 @@ cout	main.cpp	/^		std::cout << "(";$/;"	m	class:std	file:
 end	combination.cpp	/^	bool end=false;$/;"	l
 endl	main.cpp	/^		std::cout << ")" <<std::endl;$/;"	m	class:std	file:
 endl	main.cpp	/^	std::cout << "combinations: " << c << std::endl;$/;"	m	class:std	file:
-endl	main.cpp	/^	std::cout << "wall[sec],\\t user[sec],\\t system[sec],\\t CPU%" << std::endl;$/;"	m	class:std	file:
-endl	main.cpp	/^	std::cout << timer.format(10, "%w,\\t %u,\\t %s,\\t %p") << std::endl;$/;"	m	class:std	file:
 flag_	combination.h	/^	std::vector<int> flag_;$/;"	m	class:combination
 is_end	combination.h	/^inline bool combination::is_end() const{$/;"	f	class:combination
 is_end	combination.h	/^	inline bool is_end() const;$/;"	p	class:combination
@@ -45,9 +43,6 @@ reset	combination.h	/^	void reset(int set, int choice);$/;"	p	class:combination
 resize	combination.cpp	/^	flag_.resize(choice, 0);$/;"	p	file:
 resize	combination.cpp	/^	prev_.resize(choice, 0);$/;"	p	file:
 result	combination.cpp	/^	int result = 1;$/;"	l
-resume	main.cpp	/^		timer.resume();$/;"	p	file:
 set_	combination.h	/^	int set_;$/;"	m	class:combination
-stop	main.cpp	/^		timer.stop();$/;"	p	file:
-timer	main.cpp	/^	boost::timer::cpu_timer timer;$/;"	l
 tmp	combination.h	/^	std::vector<int> tmp = prev_;$/;"	l
 val	main.cpp	/^			std::cout << val <<" ";$/;"	l

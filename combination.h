@@ -4,6 +4,9 @@
 
 #include <vector>
 
+/**
+ * @brief combination class
+ */
 class combination{
 	std::vector<int> prev_;
 	std::vector<int> flag_;
